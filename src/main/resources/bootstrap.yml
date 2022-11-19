@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: codemoim
+  profiles:
+    active: prod
+
+aws:
+  paramstore:
+    #enabled: false
+    prefix: /sideproject
+    region: ap-northeast-2
